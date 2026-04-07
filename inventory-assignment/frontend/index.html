@@ -117,7 +117,7 @@ async function search() {
   const minPrice = document.getElementById("minPrice").value;
   const maxPrice = document.getElementById("maxPrice").value;
 
-  const url = `http://localhost:5000/search?q=${q}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
+  const url = `https://zeerostock-ventures-2.onrender.com/search?q=${q}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
 
   const resultsDiv = document.getElementById("results");
   resultsDiv.innerHTML = "Loading...";
